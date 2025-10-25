@@ -52,7 +52,7 @@ The E-Commerce Order Pipeline automates the journey of order data from **source 
 ### 🪄 4. Workflow Orchestration using Apache Airflow
 - **Apache Airflow** manages the scheduling and automation:
   - Runs the dbt transformation job **hourly**
-  - Monitors data freshness
+  - Monitors data 
   - Sends **email alerts** if any shipment remains pending for more than **48 hours**
 - Airflow DAG ensures reliability and proactive monitoring of the pipeline.
 
